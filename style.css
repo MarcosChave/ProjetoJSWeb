@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: #e5e5e5;
+  background-image: linear-gradient(to bottom, #000000, #2f2f2f, #fb5102);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -16,10 +16,12 @@ body {
 
 .container {
   width: 375px;
-  background-color: #f4f4f4;
+  background-color: #290303;
+  border-radius: 20px;
+  box-shadow: 10px 20px 50px rgba(4, 1, 1, 0.9);
 }
 header {
-  background: #1b83e2;
+  background: #fb5102;
   height: 66px;
   display: flex;
   justify-content: center;
@@ -30,7 +32,7 @@ h1 {
   font-weight: 400;
   font-size: 24px;
   line-height: 18px;
-  color: #f4f4f4;
+  color: #414141;
 }
 
 main {
@@ -41,7 +43,7 @@ label {
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
-  color: #777777;
+  color: #f7f4f4;
 }
 
 select {
@@ -80,13 +82,13 @@ button {
   margin-top: 24px;
   margin-bottom: 36px;
   border: none;
-  background: #1b83e2;
+  background: #fb5102;
   border-radius: 25px;
   height: 48px;
   width: 100%;
   cursor: pointer;
-  color: #f4f4f4;
-  transition: background 0.6s;
+  color: #414141;
+  transition: background 0.3s;
 }
 
 button:hover {
@@ -99,7 +101,7 @@ button:active {
 }
 
 section {
-  border: 1px solid #1b83e2;
+  border: 1px solid #fb5102;
   border-radius: 4px; /** arrendondamento borda*/
   display: flex;
   flex-direction: column;
@@ -123,5 +125,5 @@ section {
 .currency-value {
   font-weight: bold;
   font-size: 20px;
-  color: #1b83e2;
+  color: #fb5102;
 }
