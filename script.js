@@ -93,30 +93,30 @@ ChangeCurrency = () => {
   const NomeUm = document.getElementById('nome-Um')
 
   if (selectOne.value === 'R$ Real Brasileiro') {
-    ImgUm.src = './brasil 2.png'
+    ImgUm.src = './assets/brasil2.png'
     NomeUm.innerHTML = 'Real'
   }
   if (selectOne.value === 'Euro') {
-    ImgUm.src = './Design sem nome 1.png'
+    ImgUm.src = './assets/euro1.png'
     NomeUm.innerHTML = 'Euro'
   }
 
   if (select.value === 'US$ Dólar Americano') {
     NameCurrency.innerHTML = 'Dólar Americano '
-    CurrencyImg.src = './estados-unidos (1) 1.png'
+    CurrencyImg.src = './assets/estados-unidos1.png'
   }
   if (select.value === '€ Euro') {
     NameCurrency.innerHTML = 'Euro'
-    CurrencyImg.src = './Design sem nome 1.png'
+    CurrencyImg.src = './assets/euro1.png'
   }
 
   if (select.value === '₿ Bitcoin') {
     NameCurrency.innerHTML = 'Bitcoin'
-    CurrencyImg.src = './bitcoin1.png'
+    CurrencyImg.src = './assets/bitcoin1.png'
   }
   if (select.value === 'R$ Real Brasileiro') {
     NameCurrency.innerHTML = 'Real'
-    CurrencyImg.src = './brasil 2.png'
+    CurrencyImg.src = './assets/brasil2.png'
   }
 
   ConvertValues()
